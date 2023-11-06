@@ -1,0 +1,13 @@
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.10.12
+- pip:
+  - pandas==1.5.3
+  - azureml-defaults
+  - joblib==0.17.0
+  - numpy==1.23.5
+  - Flask==3.0.0
+- xgboost==2.0.1
+- scikit-learn==1.2.2
